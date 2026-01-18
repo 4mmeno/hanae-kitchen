@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Hanae Kitchen</title>
+
+<!-- Font Awesome لأيقونة WhatsApp -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial;
+    background: #fff;
+    color: #7a0c0c;
+}
+
+/* HERO */
+header {
+    background: linear-gradient(rgba(122,12,12,0.85), rgba(122,12,12,0.85)),
+    url("https://images.unsplash.com/photo-1604908176997-125f25cc6f3d");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* SECTION */
+section {
+    padding: 50px 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* MENU */
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    border: 2px solid #7a0c0c;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card button {
+    background: #f4c430;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.card button:hover {
+    background: #e0b200;
+}
+
+/* FOOTER */
+footer {
+    background: #7a0c0c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    padding: 14px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp-float i {
+    font-size: 22px;
+}
+
+.whatsapp-float:hover {
+    background-color: #1ebe5d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍽️ Hanae Kitchen</h1>
+    <p>مذاق مغربي أصيل • طلبات مباشرة عبر WhatsApp</p>
+</header>
+
+<section>
+<h2>📋 Menu</h2>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604909052743-94e838986d24">
+<h3>بسطيلة الحوت</h3>
+<p class="price">700 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب بسطيلة الحوت">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1625944525211-43d3f66f6816">
+<h3>بسطيلة الدجاج</h3>
+<p class="price">600 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب بسطيلة الدجاج">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>الدجاج المحمّر</h3>
+<p class="price">450 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب الدجاج المحمر">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617196035603-5c6c8b8d89c7">
+<h3>الدجاج المعمّر</h3>
+<p class="price">500 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب الدجاج المعمر">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
+<h3>سلطة رويال</h3>
+<p class="price">200 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب سلطة رويال">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+<h3>سلطة المنزل</h3>
+<p class="price">100 درهم</p>
+<a href="https://wa.me/212669691486?text=سلام، بغيت نطلب سلطة المنزل">
+<button>اطلب عبر WhatsApp</button></a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>📞 0669 69 14 86 | © 2026 Hanae Kitchen</p>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp-float"
+   href="https://wa.me/212669691486?text=سلام، بغيت نطلب من Hanae Kitchen"
+   target="_blank">
+   <i class="fab fa-whatsapp"></i> WhatsApp
+</a>
+
+</body>
+</html>
